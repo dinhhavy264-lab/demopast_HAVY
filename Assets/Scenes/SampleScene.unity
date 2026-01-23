@@ -364,6 +364,7 @@ GameObject:
   - component: {fileID: 746979427}
   - component: {fileID: 746979429}
   - component: {fileID: 746979428}
+  - component: {fileID: 746979430}
   m_Layer: 0
   m_Name: Engine_01_Basic
   m_TagString: Untagged
@@ -457,6 +458,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &746979430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746979426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f9639e7a195c9247836dbc39726354a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerShooting
+  bulletPrefab: {fileID: 0}
 --- !u!1 &838382783
 GameObject:
   m_ObjectHideFlags: 0
@@ -558,6 +572,7 @@ GameObject:
   m_Component:
   - component: {fileID: 871444613}
   - component: {fileID: 871444614}
+  - component: {fileID: 871444615}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -594,6 +609,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58454797b514edc4a9b035c6bd4f75f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+--- !u!114 &871444615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871444612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f9639e7a195c9247836dbc39726354a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerShooting
+  bulletPrefab: {fileID: 1450007013723959857, guid: dcef5dce91777a442a51e31eba1ea2a9,
+    type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
